@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-lftp $INPUT_HOST -u $INPUT_USER,$INPUT_PASSWORD -e "set ftp:ssl-force $INPUT_FORCESSL; set ssl:verify-certificate false; mv public_html/test2.txt public_html/testdupa.txt; quit"
+lftp $INPUT_HOST -u $INPUT_USER,$INPUT_PASSWORD -e "set ftp:ssl-force $INPUT_FORCESSL; set ssl:verify-certificate false; mv public_html/abpl1 public_html/abpl2; quit"
